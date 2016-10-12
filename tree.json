@@ -1,0 +1,777 @@
+{
+    "name": "ROOT",
+    "children": {
+        "1": {
+            "meta": "FCO",
+            "isMeta": true,
+            "name": "FCO",
+            "children": {}
+        },
+        "T": {
+            "meta": "MetaLanguage",
+            "isMeta": true,
+            "name": "MetaLanguage",
+            "base": "FCO",
+            "children": {
+                "4": {
+                    "meta": "PortBase",
+                    "isMeta": true,
+                    "name": "PortBase",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "8": {
+                    "meta": "Input",
+                    "isMeta": true,
+                    "name": "Input",
+                    "base": "PortBase",
+                    "children": {}
+                },
+                "J": {
+                    "meta": "Output",
+                    "isMeta": true,
+                    "name": "Output",
+                    "base": "PortBase",
+                    "children": {}
+                },
+                "e": {
+                    "meta": "Output2Input",
+                    "isMeta": true,
+                    "name": "Output2Input",
+                    "base": "PortConnection",
+                    "children": {}
+                },
+                "t": {
+                    "meta": "PortConnection",
+                    "isMeta": true,
+                    "name": "PortConnection",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "k": {
+                    "meta": "Example Models",
+                    "isMeta": false,
+                    "name": "Circuit",
+                    "base": "Example Models",
+                    "children": {
+                        "Px": {
+                            "meta": "Circuit",
+                            "isMeta": false,
+                            "name": "Circuit",
+                            "base": "Circuit",
+                            "children": {
+                                "3": {
+                                    "meta": "Capacitor",
+                                    "isMeta": false,
+                                    "capacitance (uF)": 1,
+                                    "name": "Capacitor",
+                                    "base": "Capacitor",
+                                    "children": {
+                                        "M": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "s": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "I": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "i": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "z": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "J": {
+                                    "meta": "Resistor",
+                                    "isMeta": false,
+                                    "resistance (ohms)": 10,
+                                    "name": "Resistor",
+                                    "base": "Resistor",
+                                    "children": {
+                                        "R": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        },
+                                        "V": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "p": {
+                                    "meta": "Inductor",
+                                    "isMeta": false,
+                                    "inductance (uH)": 30,
+                                    "name": "Inductor",
+                                    "base": "Inductor",
+                                    "children": {
+                                        "J": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "q": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "TX": {
+                            "meta": "Circuit",
+                            "isMeta": false,
+                            "name": "Circuit",
+                            "base": "Circuit",
+                            "children": {
+                                "1": {
+                                    "meta": "Resistor",
+                                    "isMeta": false,
+                                    "resistance (ohms)": 10,
+                                    "name": "Resistor",
+                                    "base": "Resistor",
+                                    "children": {
+                                        "V": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "R": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "4": {
+                                    "meta": "Resistor",
+                                    "isMeta": false,
+                                    "resistance (ohms)": 10,
+                                    "name": "Resistor",
+                                    "base": "Resistor",
+                                    "children": {
+                                        "R": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        },
+                                        "V": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "V": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "R": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "l": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "j": {
+                                    "meta": "Inductor",
+                                    "isMeta": false,
+                                    "inductance (uH)": 30,
+                                    "name": "Inductor",
+                                    "base": "Inductor",
+                                    "children": {
+                                        "J": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "q": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "pK": {
+                            "meta": "Circuit",
+                            "isMeta": false,
+                            "name": "Circuit",
+                            "base": "Circuit",
+                            "children": {
+                                "1": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "v": {
+                                    "meta": "Inductor",
+                                    "isMeta": false,
+                                    "inductance (uH)": 30,
+                                    "name": "Inductor",
+                                    "base": "Inductor",
+                                    "children": {
+                                        "J": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "q": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "E": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "o": {
+                                    "meta": "Output2Input",
+                                    "isMeta": false,
+                                    "name": "Output2Input",
+                                    "src": "Output",
+                                    "dst": "Input",
+                                    "base": "Output2Input",
+                                    "children": {}
+                                },
+                                "y": {
+                                    "meta": "Resistor",
+                                    "isMeta": false,
+                                    "resistance (ohms)": 10,
+                                    "name": "Resistor",
+                                    "base": "Resistor",
+                                    "children": {
+                                        "R": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        },
+                                        "V": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        }
+                                    }
+                                },
+                                "Y": {
+                                    "meta": "Inductor",
+                                    "isMeta": false,
+                                    "inductance (uH)": 30,
+                                    "name": "Inductor",
+                                    "base": "Inductor",
+                                    "children": {
+                                        "J": {
+                                            "meta": "Output",
+                                            "isMeta": false,
+                                            "name": "Output",
+                                            "base": "Output",
+                                            "children": {}
+                                        },
+                                        "q": {
+                                            "meta": "Input",
+                                            "isMeta": false,
+                                            "name": "Input",
+                                            "base": "Input",
+                                            "children": {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "V": {
+                    "meta": "Capacitor",
+                    "isMeta": true,
+                    "capacitance (uF)": 0.01,
+                    "name": "Capacitor",
+                    "base": "ComponentsBase",
+                    "children": {
+                        "s": {
+                            "meta": "Input",
+                            "isMeta": false,
+                            "name": "Input",
+                            "base": "Input",
+                            "children": {}
+                        },
+                        "M": {
+                            "meta": "Output",
+                            "isMeta": false,
+                            "name": "Output",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "m": {
+                    "meta": "Inductor",
+                    "isMeta": true,
+                    "inductance (uH)": 30,
+                    "name": "Inductor",
+                    "base": "ComponentsBase",
+                    "children": {
+                        "q": {
+                            "meta": "Input",
+                            "isMeta": false,
+                            "name": "Input",
+                            "base": "Input",
+                            "children": {}
+                        },
+                        "J": {
+                            "meta": "Output",
+                            "isMeta": false,
+                            "name": "Output",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "f": {
+                    "meta": "Resistor",
+                    "isMeta": true,
+                    "resistance (ohms)": 10,
+                    "name": "Resistor",
+                    "base": "ComponentsBase",
+                    "children": {
+                        "V": {
+                            "meta": "Output",
+                            "isMeta": false,
+                            "name": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "R": {
+                            "meta": "Input",
+                            "isMeta": false,
+                            "name": "Input",
+                            "base": "Input",
+                            "children": {}
+                        }
+                    }
+                },
+                "Z": {
+                    "meta": "ComponentsBase",
+                    "isMeta": true,
+                    "name": "ComponentsBase",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "c": {
+                    "meta": "Circuit",
+                    "isMeta": true,
+                    "name": "Circuit",
+                    "base": "FCO",
+                    "children": {}
+                }
+            }
+        },
+        "Q": {
+            "meta": "Example Models",
+            "isMeta": true,
+            "name": "Example Models",
+            "base": "FCO",
+            "children": {
+                "Px": {
+                    "meta": "Circuit",
+                    "isMeta": false,
+                    "name": "Circuit",
+                    "base": "Circuit",
+                    "children": {
+                        "3": {
+                            "meta": "Capacitor",
+                            "isMeta": false,
+                            "capacitance (uF)": 1,
+                            "name": "Capacitor",
+                            "base": "Capacitor",
+                            "children": {
+                                "M": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "s": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "I": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "i": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "z": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "J": {
+                            "meta": "Resistor",
+                            "isMeta": false,
+                            "resistance (ohms)": 10,
+                            "name": "Resistor",
+                            "base": "Resistor",
+                            "children": {
+                                "R": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                },
+                                "V": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "p": {
+                            "meta": "Inductor",
+                            "isMeta": false,
+                            "inductance (uH)": 30,
+                            "name": "Inductor",
+                            "base": "Inductor",
+                            "children": {
+                                "J": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "q": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "TX": {
+                    "meta": "Circuit",
+                    "isMeta": false,
+                    "name": "Circuit",
+                    "base": "Circuit",
+                    "children": {
+                        "1": {
+                            "meta": "Resistor",
+                            "isMeta": false,
+                            "resistance (ohms)": 10,
+                            "name": "Resistor",
+                            "base": "Resistor",
+                            "children": {
+                                "V": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "R": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "4": {
+                            "meta": "Resistor",
+                            "isMeta": false,
+                            "resistance (ohms)": 10,
+                            "name": "Resistor",
+                            "base": "Resistor",
+                            "children": {
+                                "R": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                },
+                                "V": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "V": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "R": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "l": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "j": {
+                            "meta": "Inductor",
+                            "isMeta": false,
+                            "inductance (uH)": 30,
+                            "name": "Inductor",
+                            "base": "Inductor",
+                            "children": {
+                                "J": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "q": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "pK": {
+                    "meta": "Circuit",
+                    "isMeta": false,
+                    "name": "Circuit",
+                    "base": "Circuit",
+                    "children": {
+                        "1": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "v": {
+                            "meta": "Inductor",
+                            "isMeta": false,
+                            "inductance (uH)": 30,
+                            "name": "Inductor",
+                            "base": "Inductor",
+                            "children": {
+                                "J": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "q": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "E": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "o": {
+                            "meta": "Output2Input",
+                            "isMeta": false,
+                            "name": "Output2Input",
+                            "src": "Output",
+                            "dst": "Input",
+                            "base": "Output2Input",
+                            "children": {}
+                        },
+                        "y": {
+                            "meta": "Resistor",
+                            "isMeta": false,
+                            "resistance (ohms)": 10,
+                            "name": "Resistor",
+                            "base": "Resistor",
+                            "children": {
+                                "R": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                },
+                                "V": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "Y": {
+                            "meta": "Inductor",
+                            "isMeta": false,
+                            "inductance (uH)": 30,
+                            "name": "Inductor",
+                            "base": "Inductor",
+                            "children": {
+                                "J": {
+                                    "meta": "Output",
+                                    "isMeta": false,
+                                    "name": "Output",
+                                    "base": "Output",
+                                    "children": {}
+                                },
+                                "q": {
+                                    "meta": "Input",
+                                    "isMeta": false,
+                                    "name": "Input",
+                                    "base": "Input",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

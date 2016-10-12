@@ -1,0 +1,80 @@
+[
+    {
+        "name": "FCO",
+        "path": "/1",
+        "nbrOfChildren": 0,
+        "base": null
+    },
+    {
+        "name": "MetaLanguage",
+        "path": "/T",
+        "nbrOfChildren": 11,
+        "base": "FCO"
+    },
+    {
+        "name": "PortBase",
+        "path": "/T/4",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Input",
+        "path": "/T/8",
+        "nbrOfChildren": 0,
+        "base": "PortBase"
+    },
+    {
+        "name": "Output",
+        "path": "/T/J",
+        "nbrOfChildren": 0,
+        "base": "PortBase"
+    },
+    {
+        "name": "Output2Input",
+        "path": "/T/e",
+        "nbrOfChildren": 0,
+        "base": "PortConnection"
+    },
+    {
+        "name": "PortConnection",
+        "path": "/T/t",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Capacitor",
+        "path": "/T/V",
+        "nbrOfChildren": 2,
+        "base": "ComponentsBase"
+    },
+    {
+        "name": "Inductor",
+        "path": "/T/m",
+        "nbrOfChildren": 2,
+        "base": "ComponentsBase"
+    },
+    {
+        "name": "Resistor",
+        "path": "/T/f",
+        "nbrOfChildren": 2,
+        "base": "ComponentsBase"
+    },
+    {
+        "name": "ComponentsBase",
+        "path": "/T/Z",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Circuit",
+        "path": "/T/c",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Example Models",
+        "path": "/Q",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    }
+]
